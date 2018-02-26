@@ -16,14 +16,26 @@ This creates a new file in your current directory.
 
 If both of these commands are run sequentially `from-some-file.whatever` and `new-file-name.whatever` will have the same contents.
 
-#### Installation
+#### Installation on MacOS (x86_64)
 
-1. git clone 
+```bash
+curl -o ~/Applications/mkfile -sSL https://github.com/mini-eggs/mkfile/releases/download/1.0.0-rc1-linux/mkfile_mac_64 && \
+chmod +x ~/Applications/mkfile && \
+alias mkfile="~/Applications/mkfile"
+```
 
-2. Install roswell, make
+#### Installation on Linux (x86_64)
 
-3. cd into dir
+```bash
+curl -o ~/Applications/mkfile -sSL https://github.com/mini-eggs/mkfile/releases/download/1.0.0-rc1-linux/mkfile_linux_64 && \
+chmod +x ~/Applications/mkfile && \
+alias mkfile="~/Applications/mkfile"
+```
 
-4. run make
+#### From source
 
-5. Add the executable in the releases folder to your path
+1. Clone this repo
+
+2. Have Roswell and Make installed
+
+3. Run `$ make`
