@@ -1,7 +1,8 @@
 default: build
 
 build:
-	ros build mkfile.ros
+	ros build mkfile.ros && mkdir -p releases && mv mkfile releases/mkfile
 
-test:
-	sbcl --script main.lisp
+clean:
+	rm -rf releases
+
