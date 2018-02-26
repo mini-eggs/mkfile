@@ -18,16 +18,12 @@ If both of these commands are run sequentially `from-some-file.whatever` and `ne
 
 #### Installation
 
-1. Download binary [Here](https://github.com/mini-eggs/mkfile/releases/download/1.0.0-rc1/mkfile)
+1. git clone 
 
-2. Add correct permissions.
+2. Install roswell, make
 
-3. Alias or put in path.
+3. cd into dir
 
-On Linux this may be:
+4. run make
 
-```bash
-curl -o ~/Applications/mkfile -sSL https://github.com/mini-eggs/mkfile/releases/download/1.0.0-rc1/mkfile && \
-chmod +x ~/Applications/mkfile && \
-alias mkfile="~/Applications/mkfile"
-```
+5. Add the executable in the releases folder to your path
